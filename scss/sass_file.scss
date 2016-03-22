@@ -1,0 +1,17 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+$background-color: #fff;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  background: $background-color;
+}
+
+
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+    transition: all 0.2s ease;
+}
